@@ -367,14 +367,18 @@ height: 40px;
     
  }
  .social-link:hover {
-    background-color: #404bbf;
+    background-color: #fff;
  }
  .social-link:focus {
     background-color: #404bbf;
  }
 
  .social-icon {
-    fill: none;
+    fill: #fff;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ .social-icon:hover {
+    fill: #404bbf;
  }
     
    /* portfolio */ 
@@ -444,7 +448,7 @@ width: 100%;
         opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    
+
     .portfolio-overlay-text {
         font-weight: 400;
             font-size: 16px;
@@ -575,8 +579,13 @@ width: 115px;
 }
 .footer-socials-link:hover,
 .footer-socials-link:focus {
-    background-color: #404bbf
+    background-color: #fff;
 }
 .footer-icon {
-    fill: none;
+    fill: #fff;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+.footer-icon:hover {
+    fill: #4d5ae5;
 }
