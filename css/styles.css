@@ -455,7 +455,7 @@ width: 100%;
                 display: flex;
                 align-items: flex-start;
                 justify-content: center;
-                padding: 40px 32px
+                padding: 40px 32px;
             
                 opacity: 0;
                 transform: translateY(100%);
