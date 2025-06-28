@@ -6,6 +6,13 @@ body {
     background-color: #fff;
 }
 
+/*змінні*/
+
+:root {
+    --cloud: #f4f4fd;
+}
+
+
 /* reset */
 ul,ol {
     list-style-type: none;
@@ -153,8 +160,8 @@ bottom: -1px;
     padding: 188px 0;
     width: 100%;
             max-width: 1440px;
-            background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-            url("../images/backgroundimg.webp");
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -376,7 +383,7 @@ height: 40px;
  }
 
  .social-icon {
-    fill: #fff;
+    fill: var(--cloud);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .social-icon:hover {
@@ -448,17 +455,15 @@ width: 100%;
                 display: flex;
                 align-items: flex-start;
                 justify-content: center;
-                padding: 40px 32px 16px;
+                padding: 40px 32px
             
                 opacity: 0;
                 transform: translateY(100%);
-                transition:
-                    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                transition: transform 250ms cubic-bezier(0.4, 0, 0.2,1)
             
     }
     .portfolio-list-item:hover .overlay-paragraph {
-        opacity: 1;
+        
         transform: translateY(0%);
     }
 
