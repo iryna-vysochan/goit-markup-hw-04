@@ -333,7 +333,7 @@ bottom: -1px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        margin-top: 32px;
+        
         margin-bottom: 8px;
 }
   
@@ -355,7 +355,7 @@ bottom: -1px;
     justify-content: center;
     gap: 24px;
     list-style: none;
-   padding-bottom: 32px;
+   
 
 }
  .team-social-cards-list {
@@ -463,7 +463,7 @@ width: 100%;
             
     }
     .portfolio-list-item:hover .overlay-paragraph {
-        
+        opacity: 1;
         transform: translateY(0%);
     }
 
@@ -516,24 +516,23 @@ width: 100%;
 }
 .footer-wrapper {
     display: flex;
-    justify-content: center;
     align-items: baseline;
     
 }
 .footer-container-logo {
-        display: flex;
+        
         flex-direction: column;
         justify-content: center;
         align-items: left;
         text-align: left;
-        width: 100%;
+        
         margin-right: 120px;
        
 }
 .footer-logo {
  
-margin-bottom: 16px;
-width: 115px;
+    margin-bottom: 16px;
+    width: 115px;
     height: 24px;
     display: inline-block;
 }
@@ -549,12 +548,12 @@ width: 115px;
 
 }
 .footer-container-socials {
-    display: flex;
+    
         flex-direction: column;
         justify-content: center;
         align-items: left;
         text-align: left;
-        width: 100%;
+       
 }
 
 
